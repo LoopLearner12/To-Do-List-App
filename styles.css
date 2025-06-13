@@ -51,19 +51,19 @@ body {
 }
 
 .dark-mode #todo-input {
-  background-color: #cacbc6;
-  color: #eee;
+  background-color: #eaece4;
+  color: #1d1414;
   border-color: #666;
 }
 
 .dark-mode #todo-form button {
-  background-color: #bd5003;
-  color: #c3bbbb;
+  background-color: #b92f0c;
+  color: #dccfcf;
 }
 
 .dark-mode .todo-item {
   background-color: #4ea513;
-  border-color: #555;
+  border-color: #ae3b3b;
 }
 
 .dark-mode .todo-item.completed .text {
