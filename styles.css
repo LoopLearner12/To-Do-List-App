@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(198, 195, 145);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding-top: 0;
+}
+
+.todo-container {
+  background: #f6f490;
+  padding: 20px 30px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+#clear-all-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 10px 0;
+  background-color: rgb(8, 91, 26);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#clear-all-btn:hover {
+  background-color: darkmagenta;
+}
+
+#dark-mode-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dark-mode {
+  background-color: #933f0a;
+  color: #eee;
+}
+
+.dark-mode #todo-input {
+  background-color: #cacbc6;
+  color: #eee;
+  border-color: #666;
+}
+
+.dark-mode #todo-form button {
+  background-color: #bd5003;
+  color: #c3bbbb;
+}
+
+.dark-mode .todo-item {
+  background-color: #4ea513;
+  border-color: #555;
+}
+
+.dark-mode .todo-item.completed .text {
+  color: #bc4b4b;
+}
+
+.dark-mode .todo-item button {
+  color: rgb(198, 71, 71);
+}
+
+.dark-mode .edit-btn {
+  color: #88f;
+}
+
+.dark-mode .task-checkbox {
+  accent-color: #88f;
+}
+
+.todo-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#todo-form {
+  display: flex;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 8px;
+  border: 2px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+#todo-form button {
+  padding: 8px 12px;
+  border: none;
+  background: #5cb85c;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+#todo-form button:hover {
+  background: #4cae4c;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.task-checkbox {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item.completed .text {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  border: none;
+  background: none;
+  color: #d9534f;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.edit-btn {
+  color: #0275d8;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.edit-btn:hover {
+  color: #025aa5;
+}
+
+.delete-btn {
+  color: #d9534f;
+  margin-left: 0;
+}
+
+.delete-btn:hover {
+  color: #c9302c;
+}
