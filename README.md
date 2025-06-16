@@ -10,7 +10,6 @@ A responsive and feature-rich To-Do List web application built using HTML, CSS, 
 - 🗑️ Delete individual tasks
 - 🚮 Clear all tasks
 - 🌗 Toggle dark and light mode
-- 🔍 Filter tasks: All, Active, Completed
 - 💾 Data persists using localStorage
 - 📱 Fully responsive on desktop and mobile devices
 
@@ -20,7 +19,6 @@ A responsive and feature-rich To-Do List web application built using HTML, CSS, 
 - CSS3
 - JavaScript (Vanilla)
 - LocalStorage API
-- Optional: Tailwind CSS (if used)
 
 ## 📂 Folder Structure
 project-root/
@@ -28,7 +26,6 @@ project-root/
 ├── style.css
 ├── script.js
 └── README.md
-
 
 ## 🚀 Getting Started
 
